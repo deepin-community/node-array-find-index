@@ -1,0 +1,25 @@
+Source: node-array-find-index
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , node-tape <!nocheck>
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-array-find-index
+Vcs-Git: https://salsa.debian.org/js-team/node-array-find-index.git
+Homepage: https://github.com/sindresorhus/array-find-index
+Rules-Requires-Root: no
+
+Package: node-array-find-index
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: ES2015 Array#findIndex() ponyfill
+ This module provides a polyfill that doesn't overwrite the
+ native method
+ .
+ Node.js is an event-based server-side JavaScript engine.

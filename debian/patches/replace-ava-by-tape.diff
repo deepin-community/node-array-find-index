@@ -1,0 +1,20 @@
+Description: replace ava by tape
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-02-18
+
+--- a/test.js
++++ b/test.js
+@@ -1,5 +1,5 @@
+ /* eslint-disable no-extend-native */
+-import test from 'ava';
++const test = require('tape');
+ 
+ Array.prototype.findIndex = undefined;
+ const m = require('./');
+@@ -9,4 +9,5 @@
+ test(t => {
+ 	t.is(m(f, x => x === 30), 2);
+ 	t.is(m(f, x => x === 'noop'), -1);
++	t.end();
+ });

@@ -1,0 +1,44 @@
+node-array-find-index (1.0.2-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 10:02:42 +0100
+
+node-array-find-index (1.0.2-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-array-find-index: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 21:12:37 +0100
+
+node-array-find-index (1.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Replace ava by tape in test
+  * Replace ava by tape in test
+  * Use pkg-js-tools auto install
+  * Enable upstream test
+  * Update copyright
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 18 Feb 2020 22:00:53 +0100
+
+node-array-find-index (1.0.2-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Fri, 04 Nov 2016 19:27:14 +0100
+
+node-array-find-index (1.0.1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 29 Mar 2016 14:57:14 +0200
