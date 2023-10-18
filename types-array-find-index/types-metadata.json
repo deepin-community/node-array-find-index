@@ -1,0 +1,21 @@
+{
+    "authors": "Sam Verschueren <https://github.com/samverschueren>",
+    "libraryDependencies": [],
+    "moduleDependencies": [],
+    "libraryMajorVersion": 1,
+    "libraryMinorVersion": 0,
+    "libraryName": "array-find-index",
+    "typingsPackageName": "array-find-index",
+    "projectName": "https://github.com/sindresorhus/array-find-index",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "sourceBranch": "master",
+    "globals": [],
+    "declaredModules": [
+        "array-find-index"
+    ],
+    "files": [
+        "index.d.ts"
+    ],
+    "hasPackageJson": false,
+    "contentHash": "aa28f945987ca43e0e26d2dab916bc2adf84c41442adbd6b6a0632247625db3e"
+}

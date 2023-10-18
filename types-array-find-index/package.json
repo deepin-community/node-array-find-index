@@ -1,0 +1,16 @@
+{
+    "name": "@types/array-find-index",
+    "version": "1.0.0",
+    "description": "TypeScript definitions for array-find-index",
+    "license": "MIT",
+    "author": "Sam Verschueren <https://github.com/samverschueren>",
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "peerDependencies": {},
+    "typesPublisherContentHash": "aa28f945987ca43e0e26d2dab916bc2adf84c41442adbd6b6a0632247625db3e"
+}
